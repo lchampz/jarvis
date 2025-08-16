@@ -2,6 +2,14 @@
 
 Sistema completo para gerenciamento de salas com check-in/check-out de visitantes em tempo real, utilizando WebSockets para sincronização instantânea entre múltiplos usuários.
 
+## 📸 Screenshots
+
+### Tela de Login
+![Tela de Login](./screenshots/login.png)
+*Tela de login com suporte para visitantes e administradores*
+![Dashboard](./screenshots/dash.png)
+*Dashboard para gestão das salas*
+
 ## 📋 Índice
 
 - [Visão Geral](#visão-geral)
