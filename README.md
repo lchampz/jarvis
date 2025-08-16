@@ -412,18 +412,12 @@ const io = new Server(server, {
 
 ### Autenticação
 
-O sistema usa JWT para autenticação. Os tokens são validados em cada requisição protegida:
+O sistema usa Bun para autenticação. Os tokens são validados em cada requisição protegida:
 
 ```typescript
 // Middleware de autenticação
 const authMiddleware = new E
 ```
-
-## 📚 Documentação
-
-- [API Documentation](./docs/api.md)
-- [Frontend Documentation](./docs/frontend.md)
-- [Deployment Guide](./docs/deployment.md)
 
 ## 🤝 Contribuição
 
@@ -431,6 +425,3 @@ const authMiddleware = new E
 - [Feature Requests](https://github.com/seu-usuario/jarvis/issues)
 - [Pull Requests](https://github.com/seu-usuario/jarvis/pulls)
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
