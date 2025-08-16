@@ -19,7 +19,6 @@ export function AddRoomModal({ isOpen, onClose, onAddRoom }: AddRoomModalProps) 
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-        console.log(roomName, visitorsCapacity);
 
         if (!roomName.trim() || !visitorsCapacity.trim()) {
             toast.error('Preencha todos os campos');

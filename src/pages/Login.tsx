@@ -47,7 +47,6 @@ export function LoginPage() {
       }
 
       const { token, id, isAdmin } = response.data;
-      console.log(token, id, isAdmin);
 
       if (token) {
         loginAction(token, id, isAdmin);

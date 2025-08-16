@@ -16,7 +16,6 @@ interface RoomsGridProps {
 }
 
 export function RoomsGrid({
-    rooms,
     filteredRooms,
     userInRoom,
     isLoading,

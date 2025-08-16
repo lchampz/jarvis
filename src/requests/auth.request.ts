@@ -22,6 +22,5 @@ export const register = async (body: Omit<ICreateVisitor, "confirmPassword">) =>
 
 export const login = async (body: ILoginVisitor | ILoginAdmin, userType: UserType): Promise<IResponse<ILoginResponse>> => {
     const response = await api.post<ILoginResponse>(userType === UserType.ADMIN ? "/auth/login/admin" : "/auth/login/visitor", body);
-    console.log(response);
     return response;
 }
