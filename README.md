@@ -35,7 +35,7 @@ Jarvis é um sistema de gestão de salas inteligente que permite:
 - **Database**: [PostgreSQL](https://www.postgresql.org/) - Banco de dados relacional robusto
 - **ORM**: [Prisma](https://www.prisma.io/) - ORM moderno com type-safety
 - **WebSockets**: [Socket.IO](https://socket.io/) - Comunicação em tempo real
-- **Validação**: [Zod](https://zod.dev/) - Validação de schemas TypeScript
+- **Validação**: [Yup](https://github.com/jquense/yup) - Validação de schemas JavaScript/TypeScript
 
 ### Frontend
 - **Framework**: [React 18](https://react.dev/) - Biblioteca para interfaces de usuário
