@@ -275,24 +275,6 @@ nano .env
 ```env
 # Database
 DATABASE_URL="postgresql://user:password@localhost:5432/jarvis"
-
-# API
-API_PORT=3001
-API_HOST=localhost
-
-# WebSocket
-SOCKET_PORT=3002
-SOCKET_HOST=localhost
-
-# Frontend
-FRONTEND_URL=http://localhost:3000
-
-# JWT
-JWT_SECRET=your-super-secret-jwt-key
-JWT_EXPIRES_IN=7d
-
-# Environment
-NODE_ENV=development
 ```
 
 ### 3. Inicie o banco de dados
