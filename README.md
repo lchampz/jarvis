@@ -273,8 +273,8 @@ nano .env
 ```
 
 ```env
-# Database
-DATABASE_URL="postgresql://teste:teste@localhost:5432/jarvis" //teste:teste é o user/pass configurado no db
+# Database - teste:teste é o user/pass configurado no db
+DATABASE_URL="postgresql://teste:teste@localhost:5432/jarvis"
 ```
 
 ### 3. Inicie o banco de dados
