@@ -310,9 +310,6 @@ docker-compose logs postgres
 ```bash
 cd api
 
-# Instalar dependências
-bun install
-
 # Gerar cliente Prisma
 bunx prisma generate
 
@@ -326,8 +323,6 @@ bunx prisma db seed
 ### 5. Configure o frontend
 
 ```bash
-cd ../src
-
 # Instalar dependências
 bun install
 
@@ -339,8 +334,7 @@ cp .env.example .env
 
 ```bash
 # Terminal 1: Backend + WebSocket
-cd api
-bun run dev
+bun run dev:api
 
 # Terminal 2: Frontend
 cd src
